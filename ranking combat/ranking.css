@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ff9900;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px 0 15px;
+}
+
+.botoes-ranking {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.botoes-ranking button {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 8px;
+    background: #2d2d2d;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.botoes-ranking button:hover {
+    background: #101010;
+}
+
+#ranking {
+    width: 600px;
+    margin: auto;
+}
+
+.ranking-item {
+    display: grid;
+    grid-template-columns: 60px 1fr 120px;
+    align-items: center;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    background: #2d2d2d;
+    border-radius: 8px;
+    border-left: 5px solid #555;
+}
+
+.top1 {
+    border-left-color: gold;
+}
+
+.top2 {
+    border-left-color: silver;
+}
+
+.top3 {
+    border-left-color: #cd7f32;
+}
+
+.top4 {
+    border-left-color: #3498db;
+}
+
+.top5 {
+    border-left-color: #2ecc71;
+}
+
+.position {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.nome {
+    font-size: 18px;
+}
+
+.pontos {
+    text-align: right;
+    font-weight: bold;
+}
